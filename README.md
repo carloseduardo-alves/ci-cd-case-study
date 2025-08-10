@@ -1,5 +1,5 @@
 
-# CI/CD Case Study 🚀
+# CI/CD Case Study
 
 [![GitHub Actions](https://github.com/carloseduardo-alves/ci-cd-case-study/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/carloseduardo-alves/ci-cd-case-study/actions)
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-eduardotakeshi%2Fci--cd--case--study-blue)](https://hub.docker.com/r/eduardotakeshi/case-study-ci-cd)
@@ -25,13 +25,13 @@ Every commit to the `master` branch automatically triggers:
 
 ---
 
-## 🌐 Aplicação Online | Live Application
+## Aplicação Online | Live Application
 
 🔗 **[Acesse a aplicação aqui / Access here](https://ci-cd-case-study.onrender.com/hello)**
 
 ---
 
-## 🛠 Tecnologias | Technologies
+## Tecnologias | Technologies
 
 - **Java 17**
 - **Spring Boot**
@@ -43,7 +43,7 @@ Every commit to the `master` branch automatically triggers:
 
 ---
 
-## ▶️ Como Rodar Localmente | How to Run Locally
+## Como Rodar Localmente | How to Run Locally
 
 **Pré-requisitos | Requirements**
 - Docker instalado | Docker installed
@@ -57,15 +57,14 @@ docker pull eduardotakeshi/ci-cd-case-study:latest
 docker run -p 8080:8080 eduardotakeshi/ci-cd-case-study:latest
 ```
 
-Depois, abra no navegador:  
-Then, open in your browser:  
+Depois, abra no navegador: | Then, open in your browser:  
 ```
 http://localhost:8080/hello
 ```
 
 ---
 
-## 📂 Estrutura do Pipeline | Pipeline Structure
+## Estrutura do Pipeline | Pipeline Structure
 
 ```text
 GitHub Commit → GitHub Actions → Maven Build → Docker Build → Push Docker Hub → Render Deploy
@@ -73,6 +72,12 @@ GitHub Commit → GitHub Actions → Maven Build → Docker Build → Push Docke
 
 ---
 
-## 📄 Licença | License
+## Autor | Author
+
+Carlos Eduardo Alves  
+[GitHub](https://github.com/carloseduardo-alves)  
+[LinkedIn](https://www.linkedin.com/in/carloseduardo-alves)
+
+## Licença | License
 Este projeto está licenciado sob a **MIT License**.  
 This project is licensed under the **MIT License**.
