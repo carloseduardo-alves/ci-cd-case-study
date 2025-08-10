@@ -8,7 +8,7 @@
 ## Descrição | Description
 
 **PT-BR:**  
-Este projeto é um estudo de caso de **CI/CD** utilizando **GitHub Actions**, **Docker Hub** e **Render**.  
+Este projeto demonstra a implementação de um pipeline de **CI/CD** moderno e automatizado, integrando **GitHub Actions**, **Docker Hub** e **Render** para entrega contínua de uma aplicação Java.  
 Cada commit na branch `master` dispara automaticamente:
 1. Build da aplicação Java com Maven.
 2. Criação da imagem Docker.
@@ -16,12 +16,21 @@ Cada commit na branch `master` dispara automaticamente:
 4. Deploy automático no Render.
 
 **EN:**  
-This project is a **CI/CD case study** using **GitHub Actions**, **Docker Hub**, and **Render**.  
+This project showcases a modern, automated **CI/CD pipeline** integrating **GitHub Actions**, **Docker Hub**, and **Render** for continuous delivery of a Java application.
 Every commit to the `master` branch automatically triggers:
 1. Build the Java application with Maven.
 2. Create the Docker image.
 3. Push it to Docker Hub.
 4. Deploy automatically to Render.
+
+---
+
+## Objetivos do Projeto | Project Goals
+
+- Demonstrar a configuração de um pipeline de CI/CD completo. | Demonstrate how to configure a complete CI/CD pipeline.
+- Automatizar o build, testes e deploy de uma aplicação Java. | Automate the build, testing, and deployment of a Java application.
+- Integrar ferramentas modernas como Docker e Render para entrega contínua. | Integrate modern tools like Docker and Render for continuous delivery.
+- Servir como referência para boas práticas de DevOps. | Serve as a reference for DevOps best practices.
 
 ---
 
@@ -68,6 +77,18 @@ http://localhost:8080/hello
 
 ```text
 GitHub Commit → GitHub Actions → Maven Build → Docker Build → Push Docker Hub → Render Deploy
+```
+
+---
+
+## Exemplo de Saída | Output Example
+
+Ao acessar `http://localhost:8080/hello`, você verá uma resposta como: | When you access http://localhost:8080/hello, you will see a response like:
+
+```json
+{
+  "message": "Hello, CI/CD!"
+}
 ```
 
 ---
