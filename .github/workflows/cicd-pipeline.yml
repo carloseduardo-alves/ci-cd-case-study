@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t eduardotakeshi/ci-cd-case-study:latest .
+        run: docker build -t eduardotakeshi/case-study-ci-cd:latest .
 
       - name: Push Docker image
-        run: docker push eduardotakeshi/ci-cd-case-study:latest
+        run: docker push eduardotakeshi/case-study-ci-cd:latest
