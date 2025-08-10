@@ -2,7 +2,7 @@
 # CI/CD Case Study 🚀
 
 [![GitHub Actions](https://github.com/carloseduardo-alves/ci-cd-case-study/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/carloseduardo-alves/ci-cd-case-study/actions)
-[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-eduardotakeshi%2Fci--cd--case--study-blue)](https://hub.docker.com/r/eduardotakeshi/ci-cd-case-study)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-eduardotakeshi%2Fci--cd--case--study-blue)](https://hub.docker.com/r/eduardotakeshi/case-study-ci-cd)
 [![Render Status](https://img.shields.io/badge/Render-Live-brightgreen)](https://ci-cd-case-study.onrender.com/hello)
 
 ## 📜 Descrição | Description
