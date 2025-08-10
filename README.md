@@ -79,5 +79,4 @@ Carlos Eduardo Alves
 [LinkedIn](https://www.linkedin.com/in/carloseduardo-alves)
 
 ## Licença | License
-Este projeto está licenciado sob a **MIT License**.  
-This project is licensed under the **MIT License**.
+Este projeto está licenciado sob a **MIT License**. | This project is licensed under the **MIT License**.
