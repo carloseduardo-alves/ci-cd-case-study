@@ -5,7 +5,7 @@
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-eduardotakeshi%2Fci--cd--case--study-blue)](https://hub.docker.com/r/eduardotakeshi/case-study-ci-cd)
 [![Render Status](https://img.shields.io/badge/Render-Live-brightgreen)](https://ci-cd-case-study.onrender.com/hello)
 
-## 📜 Descrição | Description
+## Descrição | Description
 
 **PT-BR:**  
 Este projeto é um estudo de caso de **CI/CD** utilizando **GitHub Actions**, **Docker Hub** e **Render**.  
